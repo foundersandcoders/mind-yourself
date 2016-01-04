@@ -1,0 +1,30 @@
+{
+  "name": "mind-yourself",
+  "version": "1.0.0",
+  "description": "An app to teach mindfulness to children for Hackney Learning Trust.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foundersandcoders/mind-yourself.git"
+  },
+  "author": "minaorangina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foundersandcoders/mind-yourself/issues"
+  },
+  "homepage": "https://github.com/foundersandcoders/mind-yourself#readme",
+  "dependencies": {
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "webpack": "^1.12.9"
+  }
+}
