@@ -1,18 +1,21 @@
 'use strict';
 
 import React from 'react';
+import { Link } from 'react-router';
 import Landing from './views/landing.jsx';
+import Scene01 from './views/scene-01.jsx';
 
-class AppContainer extends React.Component {
-
-    handleClick () {
-
-        console.log("clicked!");
-    }
+const AppContainer = React.createClass({
 
     render () {
-        return <Landing />
-    }
-};
 
-export default AppContainer;
+        return (
+            <div className="app">
+                <h1>This is a permanent view.</h1>
+                { this.props.children }
+            </div>
+        );
+    }
+});
+
+export { AppContainer };
