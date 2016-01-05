@@ -1,16 +1,18 @@
 'use strict';
 
 import React from 'react';
+import Landing from './views/landing.jsx';
 
 class AppContainer extends React.Component {
 
-    render () {
-        return (
-            <div>
-                <h1>Successfully done!</h1>
-            </div>
-        );
+    handleClick () {
+
+        console.log("clicked!");
     }
-}
+
+    render () {
+        return <Landing />
+    }
+};
 
 export default AppContainer;
