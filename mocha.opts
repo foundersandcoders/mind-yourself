@@ -1,0 +1,4 @@
+--require chai
+--reporter nyan
+--recursive
+--compilers js:babel/register
