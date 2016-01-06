@@ -2,8 +2,6 @@
 
 import React from 'react';
 import { Link } from 'react-router';
-import Landing from './views/landing.jsx';
-import Scene01 from './views/scene-01.jsx';
 
 const AppContainer = React.createClass({
 

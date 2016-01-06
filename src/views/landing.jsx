@@ -4,7 +4,7 @@ import React from 'react';
 import injectTapEventPlugin from "react-tap-event-plugin";
 injectTapEventPlugin();
 
-class Landing extends React.Component {
+const Landing = React.createClass({
 
     render () {
 
@@ -15,6 +15,6 @@ class Landing extends React.Component {
             </div>
         );
     }
-};
+});
 
-export default Landing;
+export { Landing };
