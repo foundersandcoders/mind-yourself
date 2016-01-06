@@ -4,7 +4,7 @@ import React from 'react';
 import injectTapEventPlugin from "react-tap-event-plugin";
 injectTapEventPlugin();
 
-class Scene01 extends React.Component {
+const Scene01 = React.createClass({
 
     render () {
 
@@ -14,6 +14,6 @@ class Scene01 extends React.Component {
             </div>
         );
     }
-};
+});
 
-export default Scene01;
+export { Scene01 };
