@@ -3,16 +3,16 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-const Scene01 = React.createClass({
+const Scene08 = React.createClass({
 
     render () {
 
         return(
             <div>
-                <img className="scene" src={'./assets/scenes/IMG-01.jpg'}></img>
+                <img className="scene" src={'./assets/scenes/IMG-08.jpg'}></img>
             </div>
         );
     }
 });
 
-export { Scene01 };
+export { Scene08 };
