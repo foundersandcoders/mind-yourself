@@ -1,8 +1,7 @@
 'use strict';
 
 import React from 'react';
-import injectTapEventPlugin from "react-tap-event-plugin";
-injectTapEventPlugin();
+import { Link } from 'react-router';
 
 const Scene01 = React.createClass({
 
