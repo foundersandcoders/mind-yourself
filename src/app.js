@@ -44,6 +44,7 @@ import { Scene35 } from './views/scene-35.jsx';
 import { Scene36 } from './views/scene-36.jsx';
 import { Scene37 } from './views/scene-37.jsx';
 // import Routes from './routes.jsx';
+require('./css/main.js');
 
 ReactDOM.render((
     <Router history={ browserHistory }>
