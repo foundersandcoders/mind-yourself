@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { Link } from 'react-router';
+import narration from '../../public/assets/narration.json';
 
 const Scene27 = React.createClass({
 

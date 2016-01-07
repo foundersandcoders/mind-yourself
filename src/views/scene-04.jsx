@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { Link } from 'react-router';
+import narration from '../../public/assets/narration.json';
 
 const Scene04 = React.createClass({
 
@@ -11,7 +12,7 @@ const Scene04 = React.createClass({
             <div>
                 <img className="scene" src={'./assets/scenes/IMG-04.jpg'}></img>
                 <div>
-                    { narration.scene01 }
+                    { narration.scene04 }
                 </div>
             </div>
         );
