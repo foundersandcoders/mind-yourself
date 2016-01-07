@@ -10,6 +10,9 @@ const Scene28 = React.createClass({
         return(
             <div>
                 <img className="scene" src={'./assets/scenes/IMG-28.jpg'}></img>
+                <div>
+                    { narration.scene28 }
+                </div>
             </div>
         );
     }

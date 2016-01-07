@@ -10,7 +10,7 @@ const Landing = React.createClass({
         return  (
             <div>
                 <h1>Mind Yourself</h1>
-                <Link to="/scene-01">
+                <Link to="/scene01">
                     <h2>Start the story!</h2>
                 </Link>
             </div>
