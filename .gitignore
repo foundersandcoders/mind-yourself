@@ -3,3 +3,4 @@ node_modules/
 public/bundle.js
 public/test/test-bundle.js
 public/assets/.DS_Store
+quick.js
