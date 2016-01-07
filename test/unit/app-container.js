@@ -1,18 +1,15 @@
 'use strict';
 
 import React from 'react/dist/react-with-addons';
-import chai from 'chai';
+import { test } from 'tape';
 import { shallowRender } from '../shallow-render.js';
-import { AppContainer } from '../src/app-container.jsx';
+import { AppContainer } from '../../src/app-container.jsx';
 
-const assert = chai.assert();
 
-const appContainer = () => {
+test('Unit: AppContainer', (t) => {
 
     const rendered = shallowRender(AppContainer);
 
-    console.log(rendered.props.children);
-    assert.equal(1, 1, "success!");
+    t.equal(rendered.type, 'div', 'AppContainer is of type "div"');
+    t.end();
 });
-
-export { appContainer };
