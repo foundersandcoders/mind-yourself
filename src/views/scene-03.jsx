@@ -14,6 +14,9 @@ const Scene03 = React.createClass({
                 <div>
                     { narration.scene03 }
                 </div>
+                <Link to="/scene04">
+                    <button>Next</button>
+                </Link>
             </div>
         );
     }

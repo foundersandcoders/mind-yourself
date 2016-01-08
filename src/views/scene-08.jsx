@@ -14,6 +14,18 @@ const Scene08 = React.createClass({
                 <div>
                     { narration.scene08 }
                 </div>
+                <div className="decision">
+                    <p>Should he go to line up?</p>
+                    <Link to="/scene11">
+                        <button>No, he's annoyed</button>
+                    </Link>
+                    <Link to="/scene25">
+                        <button>Yes, but he's annoyed</button>
+                    </Link>
+                    <Link to="/scene09">
+                        <button>Yes, willingly</button>
+                    </Link>
+                </div>
             </div>
         );
     }
