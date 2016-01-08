@@ -1,7 +1,7 @@
 'use strict';
 
 import React from 'react';
-import { Link } from 'react-router';
+import { Hyperlink } from '../components/hyperlink.jsx';
 import narration from '../../public/assets/narration.json';
 
 const Scene25 = React.createClass({
@@ -14,6 +14,7 @@ const Scene25 = React.createClass({
                 <div>
                     { narration.scene25 }
                 </div>
+                <Hyperlink address="/scene26" buttonText="Next" />
             </div>
         );
     }
