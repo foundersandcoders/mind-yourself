@@ -1,7 +1,7 @@
 'use strict';
 
 import React from 'react';
-import { Link } from 'react-router';
+import { Hyperlink } from '../components/hyperlink.jsx';
 
 const Landing = React.createClass({
 
@@ -9,10 +9,8 @@ const Landing = React.createClass({
 
         return  (
             <div>
-                <h1>Mind Yourself</h1>
-                <Link to="/scene01">
-                    <h2>Start the story!</h2>
-                </Link>
+                <img className="scene" src={'./assets/scenes/TITLE.jpg'} />
+                <Hyperlink address="/scene01" buttonText="Start the story!" />
             </div>
         );
     }

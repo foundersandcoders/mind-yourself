@@ -2,7 +2,7 @@
 
 import React from 'react/dist/react-with-addons';
 import { test } from 'tape';
-import { shallowRender } from '../shallow-render.js';
+import { shallowRender } from '../utils/shallow-render.js';
 import { AppContainer } from '../../src/app-container.jsx';
 
 

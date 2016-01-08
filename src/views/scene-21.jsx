@@ -1,7 +1,7 @@
 'use strict';
 
 import React from 'react';
-import { Link } from 'react-router';
+import { Hyperlink } from '../components/hyperlink.jsx';
 import narration from '../../public/assets/narration.json';
 
 const Scene21 = React.createClass({
@@ -13,6 +13,12 @@ const Scene21 = React.createClass({
                 <img className="scene" src={'./assets/scenes/IMG-21.jpg'}></img>
                 <div>
                     { narration.scene21 }
+                </div>
+                <div className="decision">
+                    <p>What should he do to help himself feel better?</p>
+                    <Hyperlink address="/scene19" buttonText="Keep going over the angry thoughts and feelings" />
+                    <Hyperlink address="/scene24" buttonText="Ignore or hide his feelings" />
+                    <Hyperlink address="/scene22" buttonText="Do breathing space" />
                 </div>
             </div>
         );
