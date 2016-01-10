@@ -1,4 +1,5 @@
 'use strict';
 
+require('./main.css')
 require('./scenes.css');
-// console.log(scenes);
+require('./components.css');

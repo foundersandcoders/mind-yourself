@@ -10,6 +10,7 @@ module.exports = {
         loaders: [
             { test: /\.json$/, loader: "json-loader" },
             { test: /\.css$/, loader: "style!css" },
+            { test: /\.ttf$/, loader: "file-loader" },
             {
                 test: /\.jsx?$/,
                 loader: "babel",

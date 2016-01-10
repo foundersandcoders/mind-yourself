@@ -10,7 +10,7 @@ const Landing = React.createClass({
         return  (
             <div>
                 <img className="scene" src={'./assets/scenes/TITLE.jpg'} />
-                <Hyperlink address="/scene01" buttonText="Start the story!" />
+                <Hyperlink start={ true } address="/scene01" buttonText="Start the story!" />
             </div>
         );
     }
