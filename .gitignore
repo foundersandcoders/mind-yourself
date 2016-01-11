@@ -1,3 +1,8 @@
 node_modules/
 quick.js
 public/5d0684caf9aff9baee3a21c0d05c664d.ttf
+src/
+test/
+public/assets/.DS_Store
+.babelrc
+webpack.config.js
