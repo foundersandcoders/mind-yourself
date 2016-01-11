@@ -1,3 +1,6 @@
 div {
     font-family: 'Kristen';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

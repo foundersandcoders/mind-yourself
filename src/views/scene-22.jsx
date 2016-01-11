@@ -12,9 +12,7 @@ const Scene22 = React.createClass({
         return(
             <div>
                 <img className="scene" src={'./assets/scenes/IMG-22.jpg'}></img>
-                <div>
-                    { narrationText.scene22 }
-                </div>
+                <Narration narrative={ narrationText.scene22 } />
                 <Hyperlink address="/scene23" buttonText="Next" />
             </div>
         );
