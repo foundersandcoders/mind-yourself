@@ -1,5 +1,5 @@
 npm-debug.log
 node_modules/
 public/test/test-bundle.js
-public/assets/.DS_Store
+assets/.DS_Store
 quick.js
