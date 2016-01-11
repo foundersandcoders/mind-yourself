@@ -13,3 +13,14 @@
     justify-content: center;
     border-radius: 45px;
 }
+
+.narration {
+    width: 75%;
+    position: absolute;
+    padding: 10px;
+    left: 10px;
+    top: 593px;
+    font-size: 24px;
+    max-height: 140px;
+    background-color: orange;
+}
