@@ -2,7 +2,8 @@
 
 import React from 'react';
 import { Hyperlink } from '../components/hyperlink.jsx';
-import narration from '../../assets/narrationText.json';
+import { Narration } from '../components/narration.jsx';
+import narrationText from '../../assets/narrationText.json';
 
 const Scene06 = React.createClass({
 
@@ -12,7 +13,7 @@ const Scene06 = React.createClass({
             <div>
                 <img className="scene" src={'./assets/scenes/IMG-06.jpg'}></img>
                 <div>
-                    { narration.scene06 }
+                    { narrationText.scene06 }
                 </div>
                 <Hyperlink address="/scene07" buttonText="Next" />
             </div>
