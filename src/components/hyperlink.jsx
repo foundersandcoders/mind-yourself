@@ -7,7 +7,7 @@ import classNames from 'classnames';
 const Hyperlink = React.createClass({
 
     render () {
-        
+
         var start = this.props.start;
 
         let btnClass = classNames({
@@ -17,7 +17,9 @@ const Hyperlink = React.createClass({
 
         return (
             <Link className={ btnClass } to={ this.props.address }>
-                <div>{ this.props.buttonText }</div>
+                <div>
+                    { this.props.buttonText }  
+                </div>
             </Link>
         );
     }

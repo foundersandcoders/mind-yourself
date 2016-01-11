@@ -1,3 +1,31 @@
+.html {
+    width: 1024px;
+    height: 768px;
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+}
+
+.app {
+    width: 1024px;
+    height: 768px;
+    position: relative;
+}
+
 .start > div {
+    position: absolute;
+    background-color: #6534FF;
+    height: 1em;
+    bottom: 45px;
+    right: 75px;
+    padding: 0.5em;
     font-family: 'Kristen';
+    font-size: 3em;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
