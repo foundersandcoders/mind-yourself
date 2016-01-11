@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Hyperlink } from '../components/hyperlink.jsx';
-import narration from '../../assets/narration.json';
+import narration from '../../assets/narrationText.json';
 
 const Scene15 = React.createClass({
 
