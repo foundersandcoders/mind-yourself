@@ -4,6 +4,11 @@
 }
 
 a {
+
+}
+
+a, a:visited, a:active {
+    color: black;
     text-decoration: none;
 }
 

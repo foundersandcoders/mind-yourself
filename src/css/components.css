@@ -46,16 +46,16 @@
 
 .button {
     position: absolute;
-    background-color: green;
+    background-color: #6EAEE6;
     width: 18%;
     height: 60px;
-    bottom: 0;
+    bottom: 50px;
     right: 0;
     font-size: 2em;
-    margin: 10px;
+    margin: 20px;
     padding: 10px;
     border-radius: 45px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 .decision-buttons {
@@ -75,7 +75,7 @@
 
 .decision-button > div {
     /*border: 1px solid blue;*/
-    background-color: lightblue;
+    background-color: #E62C3E;
     padding: 10px;
     border-radius: 30px;
 }
