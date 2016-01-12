@@ -1,24 +1,4 @@
 
-
-.button > div {
-    position: absolute;
-    background-color: green;
-    text-align: center;
-    width: 18%;
-    height: 50px;
-    bottom: 0;
-    right: 0;
-    font-size: 2em;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 45px;
-}
-
-.decision-button{
-    font-size: 12px;
-    background-color: pink;
-}
-
 .start > div {
     position: absolute;
     background-color: #6534FF;
@@ -42,12 +22,59 @@
     top: 593px;
     font-size: 22px;
     max-height: 140px;
-    background-color: orange;
+    border: 1px solid black;
 }
 
 .decision {
+    position: absolute;
     border: 1px solid black;
     margin: 10px;
-    /*padding: 10px;*/
     width: 22%;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+.button, .decision-button {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 45px;
+    box-sizing: border-box;
+}
+
+.button {
+    position: absolute;
+    background-color: green;
+    width: 18%;
+    height: 60px;
+    bottom: 0;
+    right: 0;
+    font-size: 2em;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 45px;
+}
+
+.decision-buttons {
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.decision-button {
+
+
+}
+
+.decision-button > div {
+    border: 1px solid blue;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 30px;
 }

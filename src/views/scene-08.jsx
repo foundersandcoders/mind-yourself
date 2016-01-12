@@ -10,8 +10,9 @@ const Scene08 = React.createClass({
     render () {
 
         return(
-            <div>
+            <div className="decision-scene">
                 <img className="scene" src={'./assets/scenes/IMG-08.jpg'}></img>
+                <div className="window"></div>
                 <Narration narrative={ narrationText.scene08 } />
                 <div className="decision">
                     <p>Should he go to line up?</p>
