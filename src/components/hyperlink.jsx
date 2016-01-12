@@ -9,16 +9,19 @@ const Hyperlink = React.createClass({
     render () {
 
         var start = this.props.start;
+        var decision = this.props.decision;
+        var test = this.props.test;
 
         let btnClass = classNames({
-            'button': true,
-            'start': start
+            'button': !decision && !start,
+            'start': start,
+            'decision-button': decision
         });
 
         return (
             <Link className={ btnClass } to={ this.props.address }>
                 <div>
-                    { this.props.buttonText }  
+                    { this.props.buttonText }
                 </div>
             </Link>
         );

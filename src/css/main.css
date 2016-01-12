@@ -3,6 +3,25 @@
     src: url('../fonts/Kristen-ITC-Regular.ttf');
 }
 
-a {
+a, a:visited, a:active {
+    color: black;
     text-decoration: none;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.app {
+    width: 1024px;
+    height: 768px;
+    position: relative;
+}
+
+.scene {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -5;
 }

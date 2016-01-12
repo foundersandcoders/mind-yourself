@@ -1,31 +1,73 @@
-.html {
-    width: 1024px;
-    height: 768px;
-}
-
-.body {
-    width: 100%;
-    height: 100%;
-}
-
-.app {
-    width: 1024px;
-    height: 768px;
-    position: relative;
-}
 
 .start > div {
     position: absolute;
     background-color: #6534FF;
+    width: 40%;
     height: 1em;
     bottom: 45px;
     right: 75px;
     padding: 0.5em;
-    font-family: 'Kristen';
     font-size: 3em;
     text-align: center;
     color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    border-radius: 45px;
+}
+
+.narration {
+    width: 72%;
+    position: absolute;
+    padding: 10px;
+    margin: 10px;
+    left: 0;
+    top: 593px;
+    font-size: 22px;
+    max-height: 140px;
+}
+
+.decision {
+    position: absolute;
+    border: 1px solid black;
+    margin: 10px;
+    width: 22%;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+.button, .decision-button {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 45px;
+    box-sizing: border-box;
+}
+
+.button {
+    position: absolute;
+    background-color: #6EAEE6;
+    width: 18%;
+    height: 60px;
+    bottom: 50px;
+    right: 0;
+    font-size: 2em;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 45px;
+}
+
+.decision-buttons {
+    width: 25%;
+    height: 22%;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    margin: 10px;
+
+}
+
+.decision-button > div {
+    background-color: #E62C3E;
+    padding: 10px;
+    border-radius: 30px;
 }
