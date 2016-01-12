@@ -24785,13 +24785,13 @@
 	                    'p',
 	                    null,
 	                    'What can Robert do to help himself feel better?'
-	                ),
-	                _react2.default.createElement(
-	                    'div',
-	                    { className: 'decision-buttons' },
-	                    _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene25', buttonText: 'Nothing' }),
-	                    _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene27', buttonText: 'Focus on the soles of his feet' })
 	                )
+	            ),
+	            _react2.default.createElement(
+	                'div',
+	                { className: 'decision-buttons' },
+	                _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene25', buttonText: 'Nothing', decision: true }),
+	                _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene27', buttonText: 'Focus on the soles of his feet', decision: true })
 	            )
 	        );
 	    }
@@ -24917,18 +24917,9 @@
 	            _react2.default.createElement(_narration.Narration, { narrative: _narrationText2.default.scene13 }),
 	            _react2.default.createElement(
 	                'div',
-	                { className: 'decision' },
-	                _react2.default.createElement(
-	                    'p',
-	                    null,
-	                    'Does he argue with the others in his team?'
-	                ),
-	                _react2.default.createElement(
-	                    'div',
-	                    { className: 'decision-buttons' },
-	                    _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene14', buttonText: 'Yes, he argues' }),
-	                    _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene25', buttonText: 'No, he doesn\'t argue' })
-	                )
+	                { className: 'decision-buttons' },
+	                _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene14', buttonText: 'Yes, he argues', decision: true }),
+	                _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene25', buttonText: 'No, he doesn\'t argue', decision: true })
 	            )
 	        );
 	    }
@@ -25059,13 +25050,13 @@
 	                    'p',
 	                    null,
 	                    'What does Robert do next?'
-	                ),
-	                _react2.default.createElement(
-	                    'div',
-	                    { className: 'decision-buttons' },
-	                    _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene17', buttonText: 'Argue with his teacher' }),
-	                    _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene29', buttonText: 'Apologise' })
 	                )
+	            ),
+	            _react2.default.createElement(
+	                'div',
+	                { className: 'decision-buttons' },
+	                _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene17', buttonText: 'Argue with his teacher', decision: true }),
+	                _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene29', buttonText: 'Apologise', decision: true })
 	            )
 	        );
 	    }
@@ -25155,13 +25146,13 @@
 	                    'p',
 	                    null,
 	                    'What should Robert do to help himself feel better?'
-	                ),
-	                _react2.default.createElement(
-	                    'div',
-	                    { className: 'decision-buttons' },
-	                    _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene19', buttonText: 'Nothing' }),
-	                    _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene20', buttonText: 'Notice what he is feeling' })
 	                )
+	            ),
+	            _react2.default.createElement(
+	                'div',
+	                { className: 'decision-buttons' },
+	                _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene19', buttonText: 'Nothing', decision: true }),
+	                _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene20', buttonText: 'Notice what he is feeling', decision: true })
 	            )
 	        );
 	    }
@@ -25292,14 +25283,14 @@
 	                    'p',
 	                    null,
 	                    'What should he do to help himself feel better?'
-	                ),
-	                _react2.default.createElement(
-	                    'div',
-	                    { className: 'decision-buttons' },
-	                    _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene19', buttonText: 'Keep going over the angry thoughts and feelings' }),
-	                    _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene24', buttonText: 'Ignore or hide his feelings' }),
-	                    _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene22', buttonText: 'Do breathing space' })
 	                )
+	            ),
+	            _react2.default.createElement(
+	                'div',
+	                { className: 'decision-buttons' },
+	                _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene19', buttonText: 'Keep going over the angry thoughts and feelings', decision: true }),
+	                _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene24', buttonText: 'Ignore or hide his feelings', decision: true }),
+	                _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene22', buttonText: 'Do breathing space', decision: true })
 	            )
 	        );
 	    }
@@ -25512,14 +25503,14 @@
 	                    'p',
 	                    null,
 	                    'What should Robert do to help himself feel better?'
-	                ),
-	                _react2.default.createElement(
-	                    'div',
-	                    { className: 'decision-buttons' },
-	                    _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene14', buttonText: 'Express his angry feelings to the others' }),
-	                    _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene27', buttonText: 'Focus on the soles of his feet' }),
-	                    _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene30', buttonText: 'Nothing' })
 	                )
+	            ),
+	            _react2.default.createElement(
+	                'div',
+	                { className: 'decision-buttons' },
+	                _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene14', buttonText: 'Express his angry feelings', decision: true }),
+	                _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene27', buttonText: 'Focus on the soles of his feet', decision: true }),
+	                _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene30', buttonText: 'Nothing', decision: true })
 	            )
 	        );
 	    }
@@ -25725,15 +25716,12 @@
 	            null,
 	            _react2.default.createElement('img', { className: 'scene', src: './assets/scenes/IMG-31.jpg' }),
 	            _react2.default.createElement(_narration.Narration, { narrative: _narrationText2.default.scene31 }),
+	            _react2.default.createElement('div', { className: 'decision' }),
 	            _react2.default.createElement(
 	                'div',
-	                { className: 'decision' },
-	                _react2.default.createElement(
-	                    'div',
-	                    { className: 'decision-buttons' },
-	                    _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene30', buttonText: 'Nothing' }),
-	                    _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene33', buttonText: 'Check what his body needs' })
-	                )
+	                { className: 'decision-buttons' },
+	                _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene30', buttonText: 'Nothing', decision: true }),
+	                _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene33', buttonText: 'Check what his body needs', decision: true })
 	            )
 	        );
 	    }
@@ -25775,16 +25763,13 @@
 	            null,
 	            _react2.default.createElement('img', { className: 'scene', src: './assets/scenes/IMG-32.jpg' }),
 	            _react2.default.createElement(_narration.Narration, { narrative: _narrationText2.default.scene32 }),
+	            _react2.default.createElement('div', { className: 'decision' }),
 	            _react2.default.createElement(
 	                'div',
-	                { className: 'decision' },
-	                _react2.default.createElement(
-	                    'div',
-	                    { className: 'decision-buttons' },
-	                    _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene17', buttonText: 'Blame the teacher' }),
-	                    _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene20', buttonText: 'Notice what he is feeling' }),
-	                    _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene33', buttonText: 'Check what his body needs' })
-	                )
+	                { className: 'decision-buttons' },
+	                _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene17', buttonText: 'Blame the teacher', decision: true }),
+	                _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene20', buttonText: 'Notice what he is feeling', decision: true }),
+	                _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene33', buttonText: 'Check what his body needs', decision: true })
 	            )
 	        );
 	    }
@@ -25867,15 +25852,12 @@
 	            null,
 	            _react2.default.createElement('img', { className: 'scene', src: './assets/scenes/IMG-34.jpg' }),
 	            _react2.default.createElement(_narration.Narration, { narrative: _narrationText2.default.scene34 }),
+	            _react2.default.createElement('div', { className: 'decision' }),
 	            _react2.default.createElement(
 	                'div',
-	                { className: 'decision' },
-	                _react2.default.createElement(
-	                    'div',
-	                    { className: 'decision-buttons' },
-	                    _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene20', buttonText: 'Nothing' }),
-	                    _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene22', buttonText: 'Do breathing space' })
-	                )
+	                { className: 'decision-buttons' },
+	                _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene20', buttonText: 'Nothing', decision: true }),
+	                _react2.default.createElement(_hyperlink.Hyperlink, { address: '/scene22', buttonText: 'Do breathing space', decision: true })
 	            )
 	        );
 	    }
@@ -26447,7 +26429,7 @@
 
 
 	// module
-	exports.push([module.id, "\n.start > div {\n    position: absolute;\n    background-color: #6534FF;\n    width: 40%;\n    height: 1em;\n    bottom: 45px;\n    right: 75px;\n    padding: 0.5em;\n    font-size: 3em;\n    text-align: center;\n    color: #fff;\n    border-radius: 45px;\n}\n\n.narration {\n    width: 75%;\n    position: absolute;\n    padding: 10px;\n    margin: 10px;\n    left: 0;\n    top: 593px;\n    font-size: 22px;\n    max-height: 140px;\n}\n\n.decision {\n    position: absolute;\n    border: 1px solid black;\n    margin: 10px;\n    width: 22%;\n    background-color: #fff;\n    bottom: 0;\n    left: 0;\n    display: none;\n}\n\n.button, .decision-button {\n    text-align: center;\n    margin: 10px;\n    padding: 10px;\n    border-radius: 45px;\n    box-sizing: border-box;\n}\n\n.button {\n    position: absolute;\n    background-color: #6EAEE6;\n    width: 18%;\n    height: 60px;\n    bottom: 50px;\n    right: 0;\n    font-size: 2em;\n    margin: 20px;\n    padding: 10px;\n    border-radius: 45px;\n}\n\n.decision-buttons {\n    width: 25%;\n    height: 25%;\n    position: absolute;\n    bottom: 0;\n    right: 0;\n    margin: 10px;\n\n}\n\n.decision-button > div {\n    background-color: #E62C3E;\n    padding: 10px;\n    border-radius: 30px;\n}\n", ""]);
+	exports.push([module.id, "\n.start > div {\n    position: absolute;\n    background-color: #6534FF;\n    width: 40%;\n    height: 1em;\n    bottom: 45px;\n    right: 75px;\n    padding: 0.5em;\n    font-size: 3em;\n    text-align: center;\n    color: #fff;\n    border-radius: 45px;\n}\n\n.narration {\n    width: 72%;\n    position: absolute;\n    padding: 10px;\n    margin: 10px;\n    left: 0;\n    top: 593px;\n    font-size: 22px;\n    max-height: 140px;\n}\n\n.decision {\n    position: absolute;\n    border: 1px solid black;\n    margin: 10px;\n    width: 22%;\n    background-color: #fff;\n    bottom: 0;\n    left: 0;\n    display: none;\n}\n\n.button, .decision-button {\n    text-align: center;\n    margin: 10px;\n    padding: 10px;\n    border-radius: 45px;\n    box-sizing: border-box;\n}\n\n.button {\n    position: absolute;\n    background-color: #6EAEE6;\n    width: 18%;\n    height: 60px;\n    bottom: 50px;\n    right: 0;\n    font-size: 2em;\n    margin: 20px;\n    padding: 10px;\n    border-radius: 45px;\n}\n\n.decision-buttons {\n    width: 25%;\n    height: 22%;\n    position: absolute;\n    bottom: 20px;\n    right: 0;\n    margin: 10px;\n\n}\n\n.decision-button > div {\n    background-color: #E62C3E;\n    padding: 10px;\n    border-radius: 30px;\n}\n", ""]);
 
 	// exports
 
