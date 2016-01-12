@@ -22,7 +22,6 @@
     top: 593px;
     font-size: 22px;
     max-height: 140px;
-    /*border: 1px solid black;*/
 }
 
 .decision {
@@ -55,7 +54,6 @@
     margin: 20px;
     padding: 10px;
     border-radius: 45px;
-    /*border: 1px solid black;*/
 }
 
 .decision-buttons {
@@ -68,13 +66,7 @@
 
 }
 
-.decision-button {
-
-
-}
-
 .decision-button > div {
-    /*border: 1px solid blue;*/
     background-color: #E62C3E;
     padding: 10px;
     border-radius: 30px;
