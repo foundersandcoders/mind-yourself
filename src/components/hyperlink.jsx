@@ -13,7 +13,7 @@ const Hyperlink = React.createClass({
         var test = this.props.test;
 
         let btnClass = classNames({
-            'button': !this.props.decision,
+            'button': !decision && !start,
             'start': start,
             'decision-button': decision,
             'decision-buttons': test
