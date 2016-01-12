@@ -14,8 +14,9 @@
     border-radius: 45px;
 }
 
-.decision.button > div {
-    
+.decision-button{
+    font-size: 12px;
+    background-color: pink;
 }
 
 .start > div {
@@ -42,4 +43,11 @@
     font-size: 22px;
     max-height: 140px;
     background-color: orange;
+}
+
+.decision {
+    border: 1px solid black;
+    margin: 10px;
+    /*padding: 10px;*/
+    width: 22%;
 }

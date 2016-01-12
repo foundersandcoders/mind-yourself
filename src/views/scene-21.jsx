@@ -15,9 +15,11 @@ const Scene21 = React.createClass({
                 <Narration narrative={ narrationText.scene21 } />
                 <div className="decision">
                     <p>What should he do to help himself feel better?</p>
-                    <Hyperlink address="/scene19" buttonText="Keep going over the angry thoughts and feelings" />
-                    <Hyperlink address="/scene24" buttonText="Ignore or hide his feelings" />
-                    <Hyperlink address="/scene22" buttonText="Do breathing space" />
+                    <div className="decision-buttons">
+                        <Hyperlink address="/scene19" buttonText="Keep going over the angry thoughts and feelings" />
+                        <Hyperlink address="/scene24" buttonText="Ignore or hide his feelings" />
+                        <Hyperlink address="/scene22" buttonText="Do breathing space" />
+                    </div>
                 </div>
             </div>
         );

@@ -14,8 +14,10 @@ const Scene34 = React.createClass({
                 <img className="scene" src={'./assets/scenes/IMG-34.jpg'}></img>
                 <Narration narrative={ narrationText.scene34 } />
                 <div className="decision">
-                    <Hyperlink address="/scene20" buttonText="Nothing" />
-                    <Hyperlink address="/scene22" buttonText="Do breathing space" />
+                    <div className="decision-buttons">
+                        <Hyperlink address="/scene20" buttonText="Nothing" />
+                        <Hyperlink address="/scene22" buttonText="Do breathing space" />
+                    </div>
                 </div>
             </div>
         );
