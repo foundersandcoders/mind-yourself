@@ -1,39 +1,150 @@
 {
-   "scene01": {"bubbles": ["./assets/bubbles/IMG01-BUBB1.png"]},
-   "scene02": {"bubbles": ["./assets/bubbles/IMG02-BUBB1.png"]},
-   "scene03": {"bubbles": []},
-   "scene04": {"bubbles": []},
-   "scene05": {"bubbles": []},
-   "scene06": {"bubbles": ["./assets/bubbles/IMG06-BUBB1.png", "./assets/bubbles/IMG06-BUBB2.png", "./assets/bubbles/IMG06-BUBB3.png"]},
-   "scene07": {"bubbles": ["./assets/bubbles/IMG07-BUBB1.png", "./assets/bubbles/IMG07-BUBB2.png", "./assets/bubbles/IMG07-BUBB3.png"]},
-   "scene08": {"bubbles": ["./assets/bubbles/IMG08-BUBB1.png", "./assets/bubbles/IMG08-BUBB2.png"]},
-   "scene09": {"bubbles": ["./assets/bubbles/IMG09-BUBB1.png"]},
-   "scene10": {"bubbles": ["./assets/bubbles/IMG10-BUBB1.png", "./assets/bubbles/IMG10-BUBB2.png"]},
-   "scene11": {"bubbles": ["./assets/bubbles/IMG11-BUBB1.png", "./assets/bubbles/IMG11-BUBB2.png"]},
-   "scene12": {"bubbles": ["./assets/bubbles/IMG12-BUBB1.png", "./assets/bubbles/IMG12-BUBB2.png"]},
-   "scene13": {"bubbles": ["./assets/bubbles/IMG13-BUBB1.png"]},
-   "scene14": {"bubbles": ["./assets/bubbles/IMG14-BUBB1.png", "./assets/bubbles/IMG14-BUBB2.png"]},
-   "scene15": {"bubbles": ["./assets/bubbles/IMG15-BUBB1.png", "./assets/bubbles/IMG15-BUBB2.png"]},
-   "scene16": {"bubbles": ["./assets/bubbles/IMG16-BUBB1.png"]},
-   "scene17": {"bubbles": ["./assets/bubbles/IMG17-BUBB1.png"]},
-   "scene18": {"bubbles": ["./assets/bubbles/IMG18-BUBB1.png"]},
-   "scene19": {"bubbles": []},
-   "scene20": {"bubbles": []},
-   "scene21": {"bubbles": ["./assets/bubbles/IMG21-BUBB1.png", "./assets/bubbles/IMG21-BUBB2.png"]},
-   "scene22": {"bubbles": []},
-   "scene23": {"bubbles": []},
-   "scene24": {"bubbles": []},
-   "scene25": {"bubbles": ["./assets/bubbles/IMG25-BUBB1.png"]},
-   "scene26": {"bubbles": ["./assets/bubbles/IMG26-BUBB1.png"]},
-   "scene27": {"bubbles": []},
-   "scene28": {"bubbles": []},
-   "scene29": {"bubbles": ["./assets/bubbles/IMG29-BUBB1.png", "./assets/bubbles/IMG29-BUBB2.png"]},
-   "scene30": {"bubbles": []},
-   "scene31": {"bubbles": ["./assets/bubbles/IMG31-BUBB1.png", "./assets/bubbles/IMG31-BUBB2.png"]},
-   "scene32": {"bubbles": ["./assets/bubbles/IMG32-BUBB1.png"]},
-   "scene33": {"bubbles": []},
-   "scene34": {"bubbles": ["./assets/bubbles/IMG34-BUBB1.png"]},
-   "scene35": {"bubbles": ["./assets/bubbles/IMG35-BUBB1.png", "./assets/bubbles/IMG35-BUBB2.png"]},
-   "scene36": {"bubbles": ["./assets/bubbles/IMG36-BUBB1.png", "./assets/bubbles/IMG36-BUBB2.png"]},
-   "scene37": {"bubbles": ["./assets/bubbles/IMG37-BUBB1.png", "./assets/bubbles/IMG37-BUBB2.png"]}
+   "scene01": {
+                "bubbles": ["./assets/bubbles/IMG01-BUBB1.png"],
+                "bubbleText": ["Hi there!  Good to see you, you've arrived just at the right time."]
+              },
+   "scene02": {
+                "bubbles": ["./assets/bubbles/IMG02-BUBB1.png"],
+                "bubbleText": ["It's about our mates Robert and John.  Listen, and we'll tell you what's been going on."]
+              },
+   "scene03": {
+                "bubbles": [],
+                "bubbleText": []
+              },
+   "scene04": {
+                "bubbles": [],
+                "bubbleText": []
+              },
+   "scene05": {
+                "bubbles": [],
+                "bubbleText": []
+              },
+   "scene06": {
+                "bubbles": ["./assets/bubbles/IMG06-BUBB1.png", "./assets/bubbles/IMG06-BUBB2.png", "./assets/bubbles/IMG06-BUBB3.png"],
+                "bubbleText": ["Go on Robbo, you're through", "Only the keeper to beat!", "Ulp!"]
+              },
+   "scene07": {
+                "bubbles": ["./assets/bubbles/IMG07-BUBB1.png", "./assets/bubbles/IMG07-BUBB2.png", "./assets/bubbles/IMG07-BUBB3.png"],
+                "bubbleText": ["OK, stop playing now.", "What the...!", "Aww, we could have won then."]
+              },
+   "scene08": {
+                "bubbles": ["./assets/bubbles/IMG08-BUBB1.png", "./assets/bubbles/IMG08-BUBB2.png"],
+                "bubbleText": ["Rob just didn't know what to do.", "Should he stop playing?  Or take no notice and just shoot?"]
+              },
+   "scene09": {
+                "bubbles": ["./assets/bubbles/IMG09-BUBB1.png"],
+                "bubbleText": ["OK you lot, line up quietly and let's get back into school."]
+}             ,
+   "scene10": {
+                "bubbles": ["./assets/bubbles/IMG10-BUBB1.png", "./assets/bubbles/IMG10-BUBB2.png"],
+                "bubbleText": ["Even though he wasn't really showing it, Rob couldn't help feeling a bit disappointed with the way the game ended.", "Do you think he could have done something to make himself feel better?"]
+              },
+   "scene11": {
+                "bubbles": ["./assets/bubbles/IMG11-BUBB1.png", "./assets/bubbles/IMG11-BUBB2.png"],
+                "bubbleText": ["Grrr!", "Gooooooaaaaal!!!"]
+              },
+   "scene12": {
+                "bubbles": ["./assets/bubbles/IMG12-BUBB1.png", "./assets/bubbles/IMG12-BUBB2.png"],
+                "bubbleText": ["Noooo!  It must have been in!", "What's the matter with you, Rob?  The game was over, man!!"]
+              },
+   "scene13": {
+                "bubbles": ["./assets/bubbles/IMG13-BUBB1.png"],
+                "bubbleText": ["Rob was really starting to get annoyed now.  He didn't know whether to forget it and line up, have a go back at his mates, or what?"]
+              },
+   "scene14": {
+                "bubbles": ["./assets/bubbles/IMG14-BUBB1.png", "./assets/bubbles/IMG14-BUBB2.png"],
+                "bubbleText": ["I can't be bothered with this.  I'm going to line up.  Who's coming?", "Arggh!  That goal should stand!!"]
+              },
+   "scene15": {
+                "bubbles": ["./assets/bubbles/IMG15-BUBB1.png", "./assets/bubbles/IMG15-BUBB2.png"],
+                "bubbleText": ["ROBERT!  Stop that right now.  Say sorry to the others or you'll be in big trouble.", "Oh no, not again.  Why does he do this?"]
+              },
+   "scene16": {
+                "bubbles": ["./assets/bubbles/IMG16-BUBB1.png"],
+                "bubbleText": ["So, Rob was really getting in a state.  But what do you think he did next?"]
+              },
+   "scene17": {
+                "bubbles": ["./assets/bubbles/IMG17-BUBB1.png"],
+                "bubbleText": ["This isn't fair!  'Course it was a goal - it's no wonder I got angry.  Old Hairyface never should have told me off - and now he won't even let me in class!"]
+              },
+   "scene18": {
+                "bubbles": ["./assets/bubbles/IMG18-BUBB1.png"],
+                "bubbleText": ["So, there he is - stuck outside the classroom, angry and upset.  Do you think there is anything he could do to help himself feel better."]
+              },
+   "scene19": {
+                "bubbles": [],
+                "bubbleText": []
+              },
+   "scene20": {
+                "bubbles": [],
+                "bubbleText": []
+              },
+   "scene21": {
+                "bubbles": ["./assets/bubbles/IMG21-BUBB1.png", "./assets/bubbles/IMG21-BUBB2.png"],
+                "bubbleText": ["It's really great how Rob has started to think about himself and how he's feeling.  But is there anything else he could do to help himself feel better?", "Cup of tea, Suze?"]
+              },
+   "scene22": {
+                "bubbles": [],
+                "bubbleText": []
+              },
+   "scene23": {
+                "bubbles": [],
+                "bubbleText": []
+              },
+   "scene24": {
+                "bubbles": [],
+                "bubbleText": []
+              },
+   "scene25": {
+                "bubbles": ["./assets/bubbles/IMG25-BUBB1.png"],
+                "bubbleText": ["OK you lot, line up quietly and let's get back into school.  And Robert, try to cheer up a bit!"]
+              },
+   "scene26": {
+                "bubbles": ["./assets/bubbles/IMG26-BUBB1.png"],
+                "bubbleText": ["Rob just couldn't seem to stop himself being angry.  He didn't know whether to do nothing, have a go at someone, or what?"]
+              },
+   "scene27": {
+                "bubbles": [],
+                "bubbleText": []
+              },
+   "scene28": {
+                "bubbles": [],
+                "bubbleText": []
+              },
+   "scene29": {
+                "bubbles": ["./assets/bubbles/IMG29-BUBB1.png", "./assets/bubbles/IMG29-BUBB2.png"],
+                "bubbleText": ["Sorry guys, I was out of order there.", "Don't worry about it, Rob - we understand."]
+              },
+   "scene30": {
+                "bubbles": [],
+                "bubbleText": []
+              },
+   "scene31": {
+                "bubbles": ["./assets/bubbles/IMG31-BUBB1.png", "./assets/bubbles/IMG31-BUBB2.png"],
+                "bubbleText": ["Wow, the soles of feet practice really helped Rob out.  But I think there might be something else he could do too.  What do you think?", "Talking about feet, Suze.  Mine are killing me and I'm starving!  Can we go home now?"]
+              },
+   "scene32": {
+                "bubbles": ["./assets/bubbles/IMG32-BUBB1.png"],
+                "bubbleText": ["It seemed to be taking Rob a long time to calm down and he didn't know why.  Was it the teacher's fault?  Or was it more to do with himself or his feelings?"]
+              },
+   "scene33": {
+                "bubbles": [],
+                "bubbleText": []
+              },
+   "scene34": {
+                "bubbles": ["./assets/bubbles/IMG34-BUBB1.png"],
+                "bubbleText": ["Rob was a lot happier now that he'd taken the time to think about himself and his feelings for a while.  But do you think that there could be anything else that he could do?"]
+              },
+   "scene35": {
+                "bubbles": ["./assets/bubbles/IMG35-BUBB1.png", "./assets/bubbles/IMG35-BUBB2.png"],
+                "bubbleText": ["Thanks ever so much for your help.  Rob is feeling much better now.", "Yes, you've been really great!  Fancy staying for some tea and cake?"]
+              },
+   "scene36": {
+                "bubbles": ["./assets/bubbles/IMG36-BUBB1.png", "./assets/bubbles/IMG36-BUBB2.png"],
+                "bubbleText": ["What a shame, Rob is still really upset and angry.  But thanks for trying to help anyway.", "Yeah, thanks for trying.  See you later."]
+              },
+   "scene37": {
+                "bubbles": ["./assets/bubbles/IMG37-BUBB1.png", "./assets/bubbles/IMG37-BUBB2.png"],
+                "bubbleText": ["Rob hasn't had a good day, but thanks for what you've done.", "Yeah, cheers for that.  Do you want an apple before you go?"]
+              }
 }
