@@ -3,6 +3,7 @@
 import React from 'react';
 import { Hyperlink } from '../components/hyperlink.jsx';
 import { Narration } from '../components/narration.jsx';
+import { SpeechBubble } from '../components/speech-bubble.jsx';
 import narrationText from '../../assets/narrationText.json';
 
 const Scene21 = React.createClass({
@@ -12,6 +13,7 @@ const Scene21 = React.createClass({
         return(
             <div>
                 <img className="scene" src={'./assets/scenes/IMG-21.jpg'}></img>
+                <SpeechBubble scene={ "scene21" } />
                 <Narration narrative={ narrationText.scene21 } />
                 <div className="decision">
                     <p>What should he do to help himself feel better?</p>

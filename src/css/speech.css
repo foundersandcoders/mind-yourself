@@ -1,0 +1,30 @@
+.bubble-container > img, .bubble-text-container > div {
+    position: absolute;
+    background-color: grey;
+}
+
+.bubble-text-container > div {
+    font-size: 20px;
+    width: 24%;
+    background-color: yellow;
+}
+
+.bubble-container > .bubble-scene01 {
+    top: 17px;
+    left: 254px;
+}
+
+.bubble-text-scene01 {
+    top: 43px;
+    left: 420px;
+}
+
+.bubble-container > .bubble-scene02 {
+    top: 50px;
+    right: 240px;
+}
+
+.bubble-text-scene02 {
+    top: 75px;
+    right: 387px;
+}
