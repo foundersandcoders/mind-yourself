@@ -1,0 +1,68 @@
+
+.bubble-container > .bubble-scene21.num1 {
+    top: 20px;
+    left: 260px;
+}
+
+
+.bubble-container > .bubble-scene21.num2 {
+    top: 50px;
+    right: 20px;
+}
+
+.bubble-text-scene21.num1 {
+    top: 35px;
+    left: 350px;
+}
+
+.bubble-text-scene21.num2 {
+    width: 12%;
+    top: 70px;
+    right: 50px;
+}
+
+.bubble-container > .bubble-scene25.num1 {
+    top: 20px;
+    left: 250px;
+}
+
+.bubble-text-scene25.num1 {
+    width: 33%;
+    font-size: 22px;
+    top: 40px;
+    left: 350px;
+}
+
+.bubble-container > .bubble-scene26.num1 {
+    top: 40px;
+    right: 50px;
+}
+
+.bubble-text-scene26.num1 {
+    width: 25%;
+    font-size: 22px;
+    top: 70px;
+    right: 100px;
+}
+
+.bubble-container > .bubble-scene29.num1 {
+    top: 40px;
+    right: 350px;
+}
+
+.bubble-container > .bubble-scene29.num2 {
+    top: 40px;
+    right: 100px;
+}
+
+.bubble-text-scene29.num1 {
+    width: 22%;
+    top: 65px;
+    right: 360px;
+}
+
+.bubble-text-scene29.num2 {
+    width: 17%;
+    top: 60px;
+    right: 110px;
+}
