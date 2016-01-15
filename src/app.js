@@ -3,7 +3,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, browserHistory, IndexRoute } from 'react-router';
-
 import { AppContainer } from './app-container.jsx';
 import { Landing } from './views/landing.jsx';
 import { Scene01 } from './views/scene-01.jsx';
@@ -43,7 +42,6 @@ import { Scene34 } from './views/scene-34.jsx';
 import { Scene35 } from './views/scene-35.jsx';
 import { Scene36 } from './views/scene-36.jsx';
 import { Scene37 } from './views/scene-37.jsx';
-// import Routes from './routes.jsx';
 require('./css/main.js');
 
 ReactDOM.render((
