@@ -1,6 +1,6 @@
-var path = require('path');
 
 module.exports = {
+    
     entry: "./src/app.js",
     output: {
         path: './',
@@ -14,10 +14,7 @@ module.exports = {
             {
                 test: /\.jsx?$/,
                 loader: "babel",
-                exclude: /node_modules/,
-                query: {
-                    presets: ['react', 'es2015']
-                }
+                exclude: /node_modules/
             }
         ]
     }

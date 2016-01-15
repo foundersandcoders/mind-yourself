@@ -1,7 +1,7 @@
-import React from 'react'
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
-import StaticContainer from 'react-static-container'
-import { createHistory, useBasename } from 'history'
+import React from 'react';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+import StaticContainer from 'react-static-container';
+import { createHistory, useBasename } from 'history';
 
 const history = useBasename(createHistory)({
   basename: '/animations'
@@ -9,10 +9,10 @@ const history = useBasename(createHistory)({
 
 
 export default class RouteCSSTransitionGroup extends React.Component {
-    
+
   static contextTypes = {
     location: React.PropTypes.object
-  }
+};
 
   constructor(props, context) {
     super(props, context)
