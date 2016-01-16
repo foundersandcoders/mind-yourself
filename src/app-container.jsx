@@ -18,7 +18,7 @@ const AppContainer = React.createClass({
 
         return (
             <div className="app">
-                <RouteCSSTransitionGroup component="div" transitionName="example" transitionEnterTimeout={900} transitionLeaveTimeout={500}>
+                <RouteCSSTransitionGroup component="div" transitionName="example" transitionEnterTimeout={2000} transitionLeaveTimeout={1000}>
                         { this.props.children }
                 </RouteCSSTransitionGroup>
             </div>
