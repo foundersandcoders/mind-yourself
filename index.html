@@ -17,11 +17,12 @@
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" charset="utf-8"></script> -->
     <script src="./bundle.js" charset="utf-8"></script>
     <script type="text/javascript">
-     // to induce full screen on ipad safari window
+    //  to induce full screen on ipad safari window
         window.scrollTo(0, 1);
         window.scrollTo(0, 200);
         setTimeout(function() {
             window.scrollTo(0, 1);
+            document.documentElement.requestFullscreen();
         }, 100);
     </script>
 </html>
