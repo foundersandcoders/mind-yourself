@@ -10,29 +10,60 @@ const SpeechBubble = React.createClass({
 
     componentDidMount () {
 
-        var bubbles = $('.bubble');
-        console.log(bubbles);
+        var self = this;
+        setTimeout(function () {
 
-        function revealBubbles() {
+            var bubbles = $('.bubble');
 
-            for (var i = 1; i <= bubbles.length; i++) {
+            if (bubbles.length === 0) {
 
-                appearance(i);
+                self.typeNarration();
+            } else {
+
+                self.revealBubbles(bubbles.length, 1);
             }
+
+        }, 310)
+
+    },
+
+    revealBubbles (bubbleNum, index) {
+
+        var self = this;
+
+        if (index > bubbleNum) {
+
+            return;
+        } else {
+
+            this.appearance('.num' + index, bubbleNum, index);
+            this.revealBubbles(bubbleNum, index + 1);
         }
+    },
 
-        function appearance(i) {
-            console.log(i);
-            var pair = $('.num'+i);
+    appearance (classname, bubbleNum, i) {
 
-            setTimeout(function() {
+        var self = this;
+        var pair = $(classname);
 
-                console.log($('.num'+i));
-                pair.removeClass('hidden'); console.log(i);
-            }, 700 + i * 1500);
-        }
+        setTimeout(function () {
 
-        revealBubbles();
+            console.log(pair);
+            pair.removeClass("hidden");
+
+            if (i === bubbleNum) {
+
+                self.typeNarration();
+            }
+
+        }, 50 + i * 1600)
+    },
+
+    typeNarration () {
+
+        console.log("typing narration");
+        var narration = $('.narration').text()
+        console.log(narration);
     },
 
     render () {
@@ -43,7 +74,6 @@ const SpeechBubble = React.createClass({
 
         return (
             <div className="bubble-container">
-
                 {
                     speechBubbles.map((bubble, i) => {
 
