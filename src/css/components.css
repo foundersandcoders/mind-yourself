@@ -13,6 +13,10 @@
     border-radius: 45px;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
 .narration {
     width: 72%;
     position: absolute;
