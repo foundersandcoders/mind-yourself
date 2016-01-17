@@ -48,7 +48,6 @@ const SpeechBubble = React.createClass({
 
         setTimeout(function () {
 
-            console.log(pair);
             pair.removeClass("hidden");
 
             if (i === bubbleNum) {
@@ -61,8 +60,7 @@ const SpeechBubble = React.createClass({
 
     typeNarration () {
 
-        console.log("typing narration");
-        var narration = $('.narration').text()
+        var narration = $('.narration').text();
         console.log(narration);
     },
 
