@@ -15,7 +15,7 @@ const BubbleText = React.createClass({
                 {
                     textArray.map((text, i) => {
 
-                        return <div key={i} className={ "bubble-text-" + scene + " num" + (i+1) }>{ text }</div>
+                        return <div key={i} className={ "hidden bubble-text bubble-text-" + scene + " num" + (i+1) }>{ text }</div>
                     })
                 }
              </div>

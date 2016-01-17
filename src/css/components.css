@@ -13,6 +13,14 @@
     border-radius: 45px;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
+.bubble, .bubble-text {
+
+}
+
 .narration {
     width: 72%;
     position: absolute;
