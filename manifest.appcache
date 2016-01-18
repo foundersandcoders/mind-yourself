@@ -1,5 +1,10 @@
 CACHE MANIFEST
 
+# 18-01-2016 v0.2
+
+#html
+index.html
+
 #js
 bundle.js
 
@@ -89,6 +94,6 @@ assets/scenes/IMG-36.jpg
 assets/scenes/IMG-37.jpg
 assets/scenes/TITLE.jpg
 
-#text-align
+#text
 assets/narrationText.json
 assets/files.json
