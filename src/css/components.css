@@ -39,7 +39,7 @@
     display: none;
 }
 
-.button, .decision-button {
+.button {
     text-align: center;
     margin: 10px;
     padding: 10px;
@@ -62,16 +62,24 @@
 
 .decision-buttons {
     width: 25%;
-    height: 22%;
     position: absolute;
-    bottom: 20px;
     right: 0;
-    margin: 10px;
-
+    margin-top: 578px;
+    height: 154px;
 }
 
 .decision-button > div {
     background-color: #E62C3E;
-    padding: 10px;
+    padding-top: 10px;
+    margin-top: 20px;
     border-radius: 30px;
+    margin-right: 10px;
+    height: 31px;
+    text-align: center;
+
+}
+
+.bubble-container {
+    position: relative;
+    width: 1024px;
 }
