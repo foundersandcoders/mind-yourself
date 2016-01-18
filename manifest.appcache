@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# 18-01-2016 v0.2
+# 18-01-2016 v0.4
 
 #html
 index.html
@@ -10,6 +10,9 @@ bundle.js
 
 #fonts
 5d0684caf9aff9baee3a21c0d05c664d.ttf
+
+#icon
+assets/icon.png
 
 #bubbles
 assets/bubbles/IMG01-BUBB1.png
