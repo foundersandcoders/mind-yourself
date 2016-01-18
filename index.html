@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html manifest="files.manifest">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -24,4 +24,11 @@
             window.scrollTo(0, 1);
         }, 100);
     </script>
+    <!-- <script type="text/javascript">
+        if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+
+            window.applicationCache.update();
+            window.applicationCache.swapCache();
+        }
+    </script> -->
 </html>
