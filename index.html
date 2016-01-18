@@ -2,12 +2,12 @@
 <html manifest="./manifest.appcache">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> -->
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-        <!-- <meta name="apple-mobile-web-app-title" content="Full Screen"> -->
-        <!-- <meta name="viewport" content="width=device-width,initial-scale=1.01,minimal-ui"> -->
+        <meta name="apple-mobile-web-app-title" content="Full Screen">
+        <meta name="viewport" content="width=device-width, initial-scale=1.01, minimal-ui, user-scalable=no">
 
         <title>Mind Yourself</title>
     </head>
@@ -16,14 +16,14 @@
     </body>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" charset="utf-8"></script> -->
     <script src="./bundle.js" charset="utf-8"></script>
-    <!-- <script type="text/javascript">
+    <script type="text/javascript">
     //  to induce full screen on ipad safari window
         window.scrollTo(0, 1);
         window.scrollTo(0, 200);
         setTimeout(function() {
             window.scrollTo(0, 1);
         }, 100);
-    </script> -->
+    </script>
     <script type="text/javascript">
         if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
 
