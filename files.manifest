@@ -1,5 +1,8 @@
 CACHE MANIFEST
 
+#js
+bundle.js
+
 #bubbles
 assets/bubbles/IMG01-BUBB1.png
 assets/bubbles/IMG02-BUBB1.png
