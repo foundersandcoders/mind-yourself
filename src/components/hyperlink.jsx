@@ -19,7 +19,7 @@ const Hyperlink = React.createClass({
         });
 
         console.log("this scene", this.props);
-        var cornerCaseScene21 = this.props.address === "/scene19" ? "cornerCaseScene21" : '';
+        var cornerCaseScene21 = this.props.scene !== undefined ? "cornerCaseScene21" : '';
         console.log("cc", cornerCaseScene21);
         return (
             <Link className={ btnClass } to={ this.props.address }>
