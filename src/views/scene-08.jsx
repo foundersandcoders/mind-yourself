@@ -17,9 +17,9 @@ const Scene08 = React.createClass({
                 <SpeechBubble scene={ "scene08" } />
                 <Narration narrative={ narrationText.scene08 } />
                 <div className="decision-buttons">
-                    <Hyperlink address="/scene11" buttonText="No, he's annoyed" decision={ true } />
-                    <Hyperlink address="/scene25" buttonText="Yes, but he's annoyed" decision={ true } />
-                    <Hyperlink address="/scene09" buttonText="Yes, willingly" decision={ true } />
+                    <Hyperlink address="/scene11" buttonText="Shoot!" decision={ true } />
+                    <Hyperlink address="/scene25" buttonText="Line up annoyed" decision={ true } />
+                    <Hyperlink address="/scene09" buttonText="Line up happily" decision={ true } />
                 </div>
             </div>
         );
