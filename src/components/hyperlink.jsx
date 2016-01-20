@@ -18,12 +18,11 @@ const Hyperlink = React.createClass({
             'decision-button': decision
         });
 
-        console.log("this scene", this.props);
-        var cornerCaseScene21 = this.props.scene !== undefined ? "cornerCaseScene21" : '';
-        console.log("cc", cornerCaseScene21);
+        var textButtonOverflow = this.props.scene !== undefined ? "text-button-overflow" : '';
+
         return (
             <Link className={ btnClass } to={ this.props.address }>
-                <div className={ "button-casing " + cornerCaseScene21 }>
+                <div className={ "button-casing " + textButtonOverflow }>
                     { this.props.buttonText }
                 </div>
             </Link>
