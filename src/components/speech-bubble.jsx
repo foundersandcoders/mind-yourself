@@ -4,13 +4,64 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BubbleText } from './bubble-text.jsx';
 import files from '../../assets/files.json';
+import $ from 'jquery';
 
 const SpeechBubble = React.createClass({
 
     componentDidMount () {
 
-        var node = ReactDOM.findDOMNode(this);
+        var self = this;
+        setTimeout(function () {
 
+            var bubbles = $('.bubble');
+
+            if (bubbles.length === 0) {
+
+                self.typeNarration();
+            } else {
+
+                self.revealBubbles(bubbles.length, 1);
+            }
+
+        }, 310)
+
+    },
+
+    revealBubbles (bubbleNum, index) {
+
+        var self = this;
+
+        if (index > bubbleNum) {
+
+            return;
+        } else {
+
+            this.appearance('.num' + index, bubbleNum, index);
+            this.revealBubbles(bubbleNum, index + 1);
+        }
+    },
+
+    appearance (classname, bubbleNum, i) {
+
+        var self = this;
+        var pair = $(classname);
+
+        setTimeout(function () {
+
+            pair.removeClass("hidden");
+
+            if (i === bubbleNum) {
+
+                self.typeNarration();
+            }
+
+        }, 50 + i * 1600)
+    },
+
+    typeNarration () {
+
+        var narration = $('.narration').text();
+        console.log(narration);
     },
 
     render () {
@@ -21,12 +72,11 @@ const SpeechBubble = React.createClass({
 
         return (
             <div className="bubble-container">
-
                 {
                     speechBubbles.map((bubble, i) => {
 
                         return(
-                                <img key={i} className={ "bubble-" + this.props.scene + " num" + (i+1) } src={ bubble }></img>
+                                <img key={i} className={ "hidden bubble bubble-" + this.props.scene + " num" + (i+1) } src={ bubble }></img>
                         )
                     })
                 }

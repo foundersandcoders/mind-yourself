@@ -18,9 +18,11 @@ const Hyperlink = React.createClass({
             'decision-button': decision
         });
 
+        var textButtonOverflow = this.props.scene !== undefined ? "text-button-overflow" : '';
+
         return (
             <Link className={ btnClass } to={ this.props.address }>
-                <div>
+                <div className={ "button-casing " + textButtonOverflow }>
                     { this.props.buttonText }
                 </div>
             </Link>

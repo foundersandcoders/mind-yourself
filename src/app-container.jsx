@@ -1,14 +1,26 @@
 'use strict';
 
 import React from 'react';
+import StaticContainer from 'react-static-container';
+import RouteCSSTransitionGroup from './route-css.jsx';
 
 const AppContainer = React.createClass({
 
     render () {
 
+        var transitionConfig = {
+
+            enter: "animated",
+            enterActive: "slideInRight",
+            leave: "animated",
+            leaveActive: "slideOutLeft"
+        };
+
         return (
             <div className="app">
-                { this.props.children }
+                <RouteCSSTransitionGroup component="div" transitionName="example" transitionEnterTimeout={1900} transitionLeaveTimeout={1300}>
+                    { this.props.children }
+                </RouteCSSTransitionGroup>
             </div>
         );
     }

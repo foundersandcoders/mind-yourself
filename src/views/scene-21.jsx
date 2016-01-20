@@ -19,9 +19,9 @@ const Scene21 = React.createClass({
                     <p>What should he do to help himself feel better?</p>
                 </div>
                 <div className="decision-buttons">
-                    <Hyperlink address="/scene19" buttonText="Keep going over the angry thoughts and feelings" decision={ true } />
+                    <Hyperlink address="/scene19" buttonText="Keep going over things" decision={ true } />
                     <Hyperlink address="/scene24" buttonText="Ignore or hide his feelings" decision={ true } />
-                    <Hyperlink address="/scene22" buttonText="Do breathing space" decision={ true } />
+                    <Hyperlink address="/scene22" buttonText="Try a breathing space" decision={ true } />
                 </div>
             </div>
         );
